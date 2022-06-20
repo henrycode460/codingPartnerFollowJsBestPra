@@ -1,0 +1,107 @@
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css);
+
+body {
+  background-color: rgb(189, 189, 231);
+}
+
+#clear {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 25px;
+  background: rgb(158, 158, 207);
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div {
+  padding: 15px;
+  border-bottom: 1px solid #d0d0d0;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  padding: 15px;
+  font-style: oblique;
+  font-size: 18px;
+  border-bottom: 1px solid #d0d0d0;
+  color: rgb(136, 136, 209);
+}
+
+p {
+  padding: 10px;
+}
+
+#clear:hover {
+  cursor: pointer;
+}
+
+i {
+  float: right;
+}
+
+#header {
+  font-weight: bold;
+  padding: 15px;
+  color: rgb(136, 136, 209);
+}
+
+.listContent {
+  flex: 2;
+  border: none;
+  margin: 18px 0;
+  color: rgb(136, 136, 209);
+}
+
+.main-div {
+  margin: 100px 100px;
+  width: 40vw;
+  font-family: Poppins, serif;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.listContent-disable {
+  text-decoration: line-through;
+  color: red;
+}
+
+.fa-solid,
+.fas {
+  font-family: sans-serif;
+  font-weight: 900;
+  color: rgb(112, 111, 205);
+}
+
+.fa-trash-alt {
+  color: red;
+}
+
+.remove-icon-active {
+  visibility: hidden;
+}
+
+.icon2 {
+  visibility: hidden;
+}
+
+.changeBg {
+  background-color: #efefe3;
+}
+
+.show {
+  visibility: visible;
+}
